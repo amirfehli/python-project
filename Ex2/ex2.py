@@ -89,11 +89,11 @@ def to_24_hour_clock(hours):
 
 
 
-### Write your get_hours function definition here:
- def get_hours(sec)
+ ### Write your get_hours function definition here:
+def get_hours(sec):
     """
-      (int) -> int
-      take the second and re turn the hour.
+     (int) -> int
+     take the second and re turn the hour.
      >>>3800 : 1
     """
     hours = (sec // 3600)
